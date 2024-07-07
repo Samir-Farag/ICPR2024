@@ -1,26 +1,34 @@
 # ICPR2024
-This repository contains the implementation code for model architecture for our paper recently accepted at the ICPR 2024 conference. For more information about coding, please contact: safara01@louisville.edu
- 
-## The paper: "Colon Segmentation Using Guided Sequential Episodic Training and Contrastive Learning"
+This repository contains the implementation code for the model architecture presented in our paper recently accepted at the ICPR 2024 conference. For more information about the code, please contact: safara01@louisville.edu.
 
-More contents will be added later.
+## The Paper: "Colon Segmentation Using Guided Sequential Episodic Training and Contrastive Learning"
+More content will be added later.
 
-AAS-DCL.zip: Includes all codes utilized in training and validating the baseline AAS-DCL, and the architicture is adopted from the official implementation here: https://github.com/cvszusparkle/AAS-DCL_FSS.
+## Standard FSS Models
 
-Guided_SET_DCL.zip: Includes all codes employed in training and validating the Guided-SET-DCL approach based on the official implementation of the baseline AAS-DCL.
+### 1. AAS-DCL
+We have provided the code utilized in training and validating the baseline AAS-DCL model. The architecture is adopted from the official implementation [here](https://github.com/cvszusparkle/AAS-DCL_FSS).
 
-SSL-ALPNet.zip: This folder includes all codes included in training and validating the SSL-ALPNet approach based on the official implementation at https://github.com/cheng-01037/Self-supervised-Fewshot-Medical-Image-Segmentation.
+### 2. SSL-ALPNet
+All code for training and validating the SSL-ALPNet approach is included, based on the official implementation available [here](https://github.com/cheng-01037/Self-supervised-Fewshot-Medical-Image-Segmentation).
 
-final_MRF.zip: Includes all codes included in the implementation of the MRF initial labeling algorithm used for guiding the proposed Guided-SET_DCL. You have to generate initial labeling for the dataset before applying codes in Guided_SET_DCL.zip.
+## Proposed Models
 
+### 1. Guided_SET_DCL.zip
+This includes all the code used for training and validating the Guided-SET-DCL approach, based on the official implementation of the baseline AAS-DCL.
 
+### 2. final_MRF.zip
+This includes all the code used in the implementation of the MRF initial labeling algorithm, which is used for guiding the proposed Guided-SET_DCL. You need to generate initial labeling for the dataset before applying the code in Guided_SET_DCL.zip.
 
-Requirements
+## Requirements
 
-### CUDA/CUDNN torch >= 1.4.0 torchvision numpy
+- CUDA/CUDNN
+- torch >= 1.4.0
+- torchvision
+- numpy
 
-### Datasets 
- 
-To get access for our private dataset, please contact aly.farag@louisville.edu
+## Datasets
 
-Public dataset is available at: https://www.synapse.org/Synapse:syn3193805/wiki/217789
+To get access to our private dataset, please contact aly.farag@louisville.edu.
+
+The public dataset is available [here](https://www.synapse.org/Synapse:syn3193805/wiki/217789).
