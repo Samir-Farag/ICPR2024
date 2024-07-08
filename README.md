@@ -7,10 +7,10 @@ More content will be added later.
 ## Standard FSS Models
 
 ### 1. AAS-DCL
-We have provided the code utilized in training and validating the baseline AAS-DCL model. The architecture is adopted from the official implementation [here](https://github.com/cvszusparkle/AAS-DCL_FSS).
+We wrote the code utilized in training and validating the baseline AAS-DCL model. The architecture is adopted from the official implementation [here](https://github.com/cvszusparkle/AAS-DCL_FSS).
 
 ### 2. SSL-ALPNet
-All code for training and validating the SSL-ALPNet approach is included, based on the official implementation available [here](https://github.com/cheng-01037/Self-supervised-Fewshot-Medical-Image-Segmentation).
+All codes included in training and validating the SSL-ALPNet approach are based on the official implementation available [here](https://github.com/cheng-01037/Self-supervised-Fewshot-Medical-Image-Segmentation).
 
 ## Proposed Models
 
