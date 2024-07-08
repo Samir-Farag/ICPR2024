@@ -28,6 +28,8 @@ This includes the implementation code of the MRF initial labeling algorithm, whi
 - torch >= 1.4.0
 - torchvision
 - numpy
+- Torch 2.3.0+cu121
+- scipy 1.11.3
 
 ## Datasets
 
