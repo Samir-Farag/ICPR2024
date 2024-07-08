@@ -4,6 +4,7 @@ This repository contains the implementation code for the model architecture pres
 ## The Paper: "Colon Segmentation Using Guided Sequential Episodic Training and Contrastive Learning"
 More content will be added later.
 
+Although the experiments were conducted to segment the colon, we believe that the same approach can be successfully used to segment other organs that are scanned as sequential slices that do not have abrupt changes.
 ## Standard FSS Models
 
 ### 1. AAS-DCL
@@ -15,10 +16,11 @@ All codes included in training and validating the SSL-ALPNet approach are based 
 ## Proposed Models
 
 ### 1. Guided_SET_DCL.zip
-This includes all the code used for training and validating the Guided-SET-DCL approach, based on the official implementation of the baseline AAS-DCL.
+This includes codes utilized for training and validating the Guided-SET-DCL approach, based on the official implementation of the baseline AAS-DCL.
 
 ### 2. final_MRF.zip
-This includes all the code used in the implementation of the MRF initial labeling algorithm, which is used for guiding the proposed Guided-SET_DCL. You need to generate initial labeling for the dataset before applying the code in Guided_SET_DCL.zip.
+This includes the implementation code of the MRF initial labeling algorithm, which is used for guiding the proposed Guided-SET_DCL. You need to generate initial labeling for the dataset before applying the code in Guided_SET_DCL.zip.
+
 
 ## Requirements
 
