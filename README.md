@@ -25,8 +25,7 @@ This includes the implementation code of the MRF initial labeling algorithm, whi
 ## Requirements
 
 - CUDA/CUDNN
-- torch >= 1.4.0
-- torchvision
+- torchvision 0.15.2+cu117
 - numpy
 - Torch 2.3.0+cu121
 - scipy 1.11.3
